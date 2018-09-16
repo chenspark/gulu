@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/chenspark/gulu/issues"
   },
-  "homepage": "https://github.com/chenspark/gulu#readme"
+  "homepage": "https://github.com/chenspark/gulu#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.9.7"
+  }
 }
