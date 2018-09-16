@@ -14,4 +14,5 @@ BDD  behavior dirven development  行为驱动开发=》用自然语言描述需
 TDD  test dirven development      测试驱动开发
 
 Assert     断言
+作用域隔离
 console.assert()只能判断真和假
