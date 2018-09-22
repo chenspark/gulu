@@ -16,3 +16,19 @@ TDD  test dirven development      测试驱动开发
 Assert     断言
 作用域隔离
 console.assert()只能判断真和假
+
+##介紹
+
+在使用 npm publish 的时候要把 registry 这一行给注释掉，否则就会发布到淘宝源上去了。
+
+
+##开始使用
+::before, ::after,*{box-sizing: border-box}
+
+##文档
+
+##提问
+
+##变更记录
+
+##联系方式

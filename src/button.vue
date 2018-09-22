@@ -7,7 +7,9 @@
     </button>
 </template>
 <script>
+    import './svg'
     export default {
+        name: 'GuluButton',
         props: {
             icon: {},
             loading: {
