@@ -18,9 +18,10 @@ Assert     断言
 console.assert()只能判断真和假
 
 ##介紹
-
-在使用 npm publish 的时候要把 registry 这一行给注释掉，否则就会发布到淘宝源上去了。
-
+安装node-sass的正确姿势
+做法是在项目内添加一个 .npmrc 文件：可以在本项目里面查看具体内容
+这样使用 npm install 安装 node-sass 和 phantomjs 时都能自动从淘宝源上下载，
+但是在使用 npm publish 的时候要把 registry 这一行给注释掉，否则就会发布到淘宝源上去了
 
 ##开始使用
 ::before, ::after,*{box-sizing: border-box}

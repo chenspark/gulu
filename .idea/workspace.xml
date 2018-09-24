@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52f49f85-846c-40b8-8714-94108cdd4a49" name="Default" comment="创建travis文件">
-      <change afterPath="$PROJECT_DIR$/src/input.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/svg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gulu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gulu.iml" afterDir="false" />
+    <list default="true" id="52f49f85-846c-40b8-8714-94108cdd4a49" name="Default" comment="添加input樣式">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/button-group.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button-group.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icon.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/icon.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/input.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,8 +35,8 @@
           <entry key="js" value="758" />
           <entry key="json" value="89" />
           <entry key="md" value="316" />
-          <entry key="txt" value="13" />
-          <entry key="vue" value="2285" />
+          <entry key="txt" value="26" />
+          <entry key="vue" value="2290" />
           <entry key="yml" value="142" />
         </counts>
       </usages-collector>
@@ -56,14 +45,14 @@
           <entry key="HTML" value="114" />
           <entry key="JSON" value="89" />
           <entry key="JavaScript" value="758" />
-          <entry key="PLAIN_TEXT" value="365" />
-          <entry key="Vue.js" value="2285" />
+          <entry key="PLAIN_TEXT" value="378" />
+          <entry key="Vue.js" value="2290" />
           <entry key="YAML" value="142" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gitignore" value="2" />
+          <entry key="gitignore" value="3" />
           <entry key="js" value="7" />
           <entry key="json" value="3" />
           <entry key="md" value="4" />
@@ -75,7 +64,7 @@
         <counts>
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="7" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="PLAIN_TEXT" value="8" />
           <entry key="Vue.js" value="9" />
         </counts>
       </usages-collector>
@@ -86,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
+            <state relative-caret-position="279">
               <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
             </state>
           </provider>
@@ -95,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/input.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+            <state relative-caret-position="187">
+              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
               <folding>
                 <element signature="e#326#340#0" expanded="true" />
                 <element signature="e#408#796#0" />
@@ -178,9 +167,9 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="457" />
-    <option name="y" value="171" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="662" />
+    <option name="y" value="89" />
     <option name="width" value="921" />
     <option name="height" value="600" />
   </component>
@@ -264,7 +253,7 @@
       <workItem from="1537196800813" duration="2572000" />
       <workItem from="1537527504326" duration="607000" />
       <workItem from="1537540298118" duration="547000" />
-      <workItem from="1537583360704" duration="5346000" />
+      <workItem from="1537583360704" duration="6199000" />
     </task>
     <task id="LOCAL-00001" summary="创建travis文件">
       <created>1537198396313</created>
@@ -273,14 +262,21 @@
       <option name="project" value="LOCAL" />
       <updated>1537198396313</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加input樣式">
+      <created>1537589121191</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537589121191</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29645000" />
+    <option name="totallyTimeSpent" value="30498000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="527" y="148" width="921" height="600" extended-state="0" />
+    <frame x="662" y="89" width="921" height="600" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.18912797" />
@@ -311,16 +307,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="创建travis文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建travis文件" />
+    <MESSAGE value="添加input樣式" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加input樣式" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -411,17 +401,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
+        <state relative-caret-position="279">
           <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/input.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+        <state relative-caret-position="187">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding>
             <element signature="e#326#340#0" expanded="true" />
             <element signature="e#408#796#0" />
