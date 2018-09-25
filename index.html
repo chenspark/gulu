@@ -31,6 +31,11 @@
         body {
             font-size: var(--font-size)
         }
+        .demo{
+            height: 100px;
+            background: #ddd;
+            border: 1px solid #666;
+        }
     </style>
 </head>
 <body>
@@ -41,20 +46,30 @@
     <!--<g-input value="美丽的输入框" error="no more less 10"></g-input>-->
     <!--<g-button icon="setting" icon-position="right">按钮</g-button>-->
     <div style="border: 1px solid black;">
-        <g-row gutter="20">
-            <g-col :phone="{span: 24}"
-                   :ipad="{span:8}"
-                   :narrow-pc="{span:4}"
-                   :pc="{span:2}"
-                   :wide-pc="{span: 1}">1
+        <g-row>
+            <g-col span="24" :ipad="{span:8}" :narrow-pc="{span:4}">
+                <div class="demo"></div>
             </g-col>
 
-            <g-col :phone="{span: 24}"
-                   :ipad="{span:16}"
-                   :narrow-pc="{span:20}"
-                   :pc="{span:22}"
-                   :wide-pc="{span: 23}">2
+            <g-col span="24" :ipad="{span:8}" :narrow-pc="{span:4}">
+                <div class="demo"></div>
             </g-col>
+
+            <g-col span="24" :ipad="{span:8}" :narrow-pc="{span:4}">
+                <div class="demo"></div>
+            </g-col>
+
+            <g-col span="24" :ipad="{span:8}" :narrow-pc="{span:4}">
+                <div class="demo"></div>
+            </g-col>
+            <g-col span="24" :ipad="{span:8}" :narrow-pc="{span:4}">
+                <div class="demo"></div>
+            </g-col>
+
+            <g-col span="24" :ipad="{span:8}" :narrow-pc="{span:4}">
+                <div class="demo"></div>
+            </g-col>
+
         </g-row>
     </div>
 </div>
