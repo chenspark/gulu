@@ -35,11 +35,28 @@
 </head>
 <body>
 <div id="app">
-    <g-input value="美丽的输入框"></g-input>
-    <g-input value="美丽" disabled></g-input>
-    <g-input value="美丽的" readonly></g-input>
-    <g-input value="美丽的输入框" error="no more less 10"></g-input>
-    <g-button icon="setting" icon-position="right">按钮</g-button>
+    <!--<g-input v-model="message"></g-input>-->
+    <!--<g-input value="美丽" disabled></g-input>-->
+    <!--<g-input value="美丽的" readonly></g-input>-->
+    <!--<g-input value="美丽的输入框" error="no more less 10"></g-input>-->
+    <!--<g-button icon="setting" icon-position="right">按钮</g-button>-->
+    <div style="border: 1px solid black;">
+        <g-row gutter="20">
+            <g-col :phone="{span: 24}"
+                   :ipad="{span:8}"
+                   :narrow-pc="{span:4}"
+                   :pc="{span:2}"
+                   :wide-pc="{span: 1}">1
+            </g-col>
+
+            <g-col :phone="{span: 24}"
+                   :ipad="{span:16}"
+                   :narrow-pc="{span:20}"
+                   :pc="{span:22}"
+                   :wide-pc="{span: 23}">2
+            </g-col>
+        </g-row>
+    </div>
 </div>
 <script src="./src/app.js"></script>
 </body>
